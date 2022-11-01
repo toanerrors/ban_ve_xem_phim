@@ -1,0 +1,17 @@
+.order{
+    width: 100%;
+    display: inline-flex;
+    &__img{
+        width: 50%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    &__content{
+        padding: 20px;
+        border-left: 1px solid #ddd;
+        
+    }
+}

@@ -1,0 +1,120 @@
+.order__ghes{
+    width: 100%;
+
+    h3{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px;
+        text-align: center;
+    }
+    
+    &__content{
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 1000px;
+        margin: 0 auto;
+        background: linear-gradient(to bottom, #f8ababcc, rgb(53, 107, 206));
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        
+        &__ghe{
+            width: 70px;
+            background-color: rgba(29, 42, 216, 0.685);
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            margin: 5px;
+            text-align: center;
+            cursor: pointer;
+            color: #ffffffe7;
+            margin-bottom: 10px;
+            padding: 10px;
+            margin: 10px;
+
+            &:hover{
+                background-color: rgba(231, 61, 19, 0.945);
+            }
+            
+            &__name{
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+
+        .damua{
+            background-color: rgba(205, 2, 231, 0.685);
+        }
+
+        .dachon{
+            background-color: rgba(231, 61, 19, 0.945);
+        }
+    }
+
+    .loaighe{
+        width: 1000px;
+        margin: 0 auto;
+        background: linear-gradient(to bottom, #f8ababcc, rgb(53, 107, 206));
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: 1px solid #ddd;
+
+        .loaighe__item{
+            display: flex;
+            justify-content: center;
+            .ghe{
+                width: 200px;
+                border: 1px solid #ddd;
+                border-radius: 20px;
+                text-align: center;
+                cursor: pointer;
+                color: #ffffffe7;
+                margin-bottom: 10px;
+                padding: 12px 10px;
+                margin: 10px;
+            }
+
+            .damua{
+                background-color: rgba(205, 2, 231, 0.685);
+            }
+
+            .ghetrong{
+                background-color: rgba(29, 42, 216, 0.685);
+            }
+
+            .ghechon{
+                background-color: rgba(231, 61, 19, 0.945);
+            }
+        }
+    }
+
+    .order__ghes__content__btn{
+        width: 1000px;
+        margin: 0 auto;
+        border-radius: 20px;
+        background-color: rgba(29, 42, 216, 0.685);
+        border: 1px solid #ddd;
+        padding: 50px;
+        margin-bottom: 20px;
+
+        .thongtin{
+            color: #ffffffe7;
+            font-size: 20px;
+        }
+
+        button{
+            width: 200px;
+            height: 50px;
+            border-radius: 20px;
+            background-color: rgba(29, 42, 216, 0.685);
+            border: 1px solid #ddd;
+            color: #ffffffe7;
+            margin-top: 20px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: rgba(231, 61, 19, 0.945);
+            }
+        }
+    }
+}

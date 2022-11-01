@@ -1,0 +1,21 @@
+.datve{
+    display: inline-block;
+    width: 100%;
+    padding: 16px;
+    color: #fff;
+}
+
+.phimhot__slide{
+    .datve{
+        position: absolute;
+        background-color: rgb(221, 23, 23);
+        width: 100px;
+        bottom: 20px;
+        margin: 0;
+        border-radius: 20px;
+
+        &:hover{
+            background-color: rgb(23, 36, 221);
+        }
+    }
+}

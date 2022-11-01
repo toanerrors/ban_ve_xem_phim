@@ -1,0 +1,56 @@
+.modal{
+    height: 700px;
+    overflow-y: scroll;
+
+    .close{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        background: #f5f5f5;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        cursor: pointer;
+    }
+
+    .header{
+        background: #f5f5f5;
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+        font-weight: bold;
+        text-align: center;
+
+        .table-header-item{
+            width: 100px;
+            text-align: center;
+        }
+    }
+
+    .content{
+        border-bottom: 1px solid #ddd;
+        padding: 20px;
+        text-align: center;
+
+        button{
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            cursor: pointer;
+        }
+
+        textarea{
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            resize: none;
+            padding: 10px;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.chonrap{
+    background: #fff;
+    width: 100%;
+
+    h1{
+        font-size: 30px;
+        font-weight: bold;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .order__raps{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 auto;
+        &__rap{
+            width: 300px;
+            background: linear-gradient(to bottom, #f8ababcc, rgb(53, 107, 206));
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            margin: 5px;
+            text-align: center;
+            cursor: pointer;
+            color: #ffffffe7;
+            margin-bottom: 10px;
+            padding: 10px;
+            margin: 10px;
+
+            &:hover{
+                background-color: rgba(231, 61, 19, 0.945);
+            }
+        }
+    }
+
+    #lichchieu{
+        margin-bottom: 100px;
+    }
+}
